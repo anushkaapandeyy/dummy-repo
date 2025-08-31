@@ -1,0 +1,46 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash logs
+crash.log
+
+# Ignore Terraform variable override files
+*.tfvars
+*.tfvars.json
+
+# Ignore Terraform plan output
+*.plan
+
+# Ignore .terraform directory (provider binaries, local state, etc.)
+.terraform/
+
+# Ignore sensitive files
+terraform.tfvars
+secret.tfvars
+
+# Ignore backup files
+*.backup
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore node_modules if using JavaScript tooling
+node_modules/
+
+# Ignore Python cache if using Python tooling
+__pycache__/
+*.pyc
+
+# Ignore GitHub Actions artifacts
+.github/workflows/*.bak
